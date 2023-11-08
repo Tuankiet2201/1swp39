@@ -1,0 +1,37 @@
+.form-register{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(111, 109, 109, 0.244);
+    padding: 5%;
+    display: flex;
+    border-radius: 5%;
+    box-shadow: 5px 5px 5px rgb(128, 127, 127);
+}
+.form-header > .logo{
+    width: 100%;
+    height: 150px;
+    margin: 0;
+    padding: 0;
+}
+.register{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(128, 128, 128, 0.144);
+}
+.btn-register{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 2%;
+    color: white;
+    background-color: rgb(33, 55, 84);
+}
+
+.tv-role{
+    display: none;
+}

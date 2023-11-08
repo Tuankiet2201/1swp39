@@ -1,0 +1,51 @@
+
+/* Style for the StorePage component */
+.space {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3%;
+    justify-content: space-around;
+  }
+  
+  /* Style for the individual cards */
+  .ant-card {
+    width: 300px;
+    margin: 1%;
+  }
+  
+  .title{
+    text-align: center;
+    margin-top: 2%;
+  }
+  .btn-choose{
+    display: flex;
+   justify-content: end;
+  }
+
+  .about-data h2 {
+    font-size: 2rem;
+    line-height: 2.6rem;
+    font-weight: 700;
+    margin: 1rem 0;
+}
+
+.heading{
+    font-size: 5rem;
+    text-transform: uppercase;
+    color: var(--heading-color);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+
+.about-text p{
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 15px;
+
+}
+.about-text .color{
+    color: rgb(219, 9, 69);
+}
